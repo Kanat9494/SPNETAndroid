@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/phoneNumberText"
-        android:text="1-855-XAMARIN"
+        android:hint="1-855-XAMARIN"
         android:layout_below="@id/textView1"
         android:inputType="text" />
 
@@ -36,5 +36,12 @@
         android:textSize="25dp"
         android:id="@+id/translatedPhoneword"
     />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/translationHistory"
+        android:id="@+id/translationHistoryButton"
+        android:enabled="false" />
 
 </LinearLayout>

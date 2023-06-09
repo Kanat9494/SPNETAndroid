@@ -1,1 +1,2 @@
-﻿global using SPNETAndroid;
+﻿global using System.Collections.Generic;
+global using Android.Content;
